@@ -311,8 +311,8 @@
 {
     NSLog(@"写入%@成功",characteristic);
 //
-//    UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"写入成功" message:[NSString stringWithFormat:@"写入%@成功",characteristic] delegate:self cancelButtonTitle:@"好的" otherButtonTitles: nil];
-//    [alertView show];
+    UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"写入成功" message:[NSString stringWithFormat:@"写入%@成功",characteristic] delegate:self cancelButtonTitle:@"好的" otherButtonTitles: nil];
+    [alertView show];
     NSLog(@"bleDatas == %@",self.bleDatas);
     
 }
